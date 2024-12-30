@@ -10,6 +10,7 @@ public class PicsartSearchTest {
     @BeforeMethod
     public void setUp() {
         driver = DriverManager.getDriver();
+        driver.get("https://PicsartSearch.com");
     }
 
     @Test
